@@ -39,6 +39,8 @@ public class Listeners extends BaseClass implements ITestListener, IInvokedMetho
 
 	public void onFinish(ITestContext arg0) {
 		driver.quit();
+		test = report.createTest("Code Coverage Report");
+		test.log(Status.INFO,"Code Coverage Link : <a href='file:///D:/Softwares/Jacoco/index.html'>Code Coverage Link</a>");
 		report.flush();
 	}
 

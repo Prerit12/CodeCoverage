@@ -11,3 +11,36 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 8
 Session ID: 8d0975552d29a9a586d5c9c282aa4c21
 *** Element info: {Using=xpath, value=(//a[@href='./logout'])[1]}
 2020-07-15 15:10:01 INFO  BaseClass:36 - Test Case Passed: verifyLogin
+2020-07-15 15:53:37 INFO  BaseClass:29 - Test Case Started: verifyHomePage
+2020-07-15 15:53:38 INFO  BaseClass:36 - Test Case Passed: verifyHomePage
+2020-07-15 15:53:49 INFO  BaseClass:29 - Test Case Started: verifyLogin
+2020-07-15 15:53:52 INFO  BaseClass:36 - Test Case Passed: verifyLogin
+2020-07-15 16:07:12 INFO  BaseClass:29 - Test Case Started: verifyHomePage
+2020-07-15 16:07:29 ERROR FunctionsClass:104 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 33e114dbb777954804c15c8d30ac4fc3
+*** Element info: {Using=xpath, value=//h3}
+2020-07-15 16:07:52 ERROR BaseClass:45 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3b69761fa82d224163f65d49f0a43549
+2020-07-15 16:07:52 INFO  BaseClass:29 - Test Case Started: verifyHomePage
+2020-07-15 16:08:04 ERROR FunctionsClass:104 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3b69761fa82d224163f65d49f0a43549
+*** Element info: {Using=xpath, value=//h3}
+2020-07-15 16:09:15 INFO  BaseClass:29 - Test Case Started: verifyHomePage
+2020-07-15 16:09:15 INFO  BaseClass:36 - Test Case Passed: verifyHomePage
+2020-07-15 16:09:40 INFO  BaseClass:29 - Test Case Started: verifyLogin
+2020-07-15 16:09:43 INFO  BaseClass:36 - Test Case Passed: verifyLogin

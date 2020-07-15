@@ -1,8 +1,8 @@
 TestSuite\LaunchHomePage.class
 utility\BaseClass.class
 utility\ExtentManager.class
-utility\Listeners.class
 Pages\HomePage.class
-utility\BusinessClass.class
 utility\Globals.class
+utility\Listeners.class
+utility\BusinessClass.class
 utility\FunctionsClass.class

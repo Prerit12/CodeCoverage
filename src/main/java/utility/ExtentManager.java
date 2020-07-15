@@ -10,7 +10,7 @@ public class ExtentManager extends BaseClass {
 	public static ExtentReports getInstance() {
 		if (report == null) {
 			String path = "./target/ExtentReport/ExtentReport.html";
-			String extentConfig = "./src/main/resources/extent-configCucumber.xml";
+			String extentConfig = "./src/main/resources/extent-config.xml";
 			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(path);
 			report = new ExtentReports();
 			report.setSystemInfo("OS", "Windows");

@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="CodeCoverage" duration-ms="93833" started-at="2020-07-15T09:38:27Z" finished-at="2020-07-15T09:40:01Z">
+  <suite name="CodeCoverage" duration-ms="43833" started-at="2020-07-15T10:39:00Z" finished-at="2020-07-15T10:39:44Z">
     <groups>
     </groups>
-    <test name="CodeCoverage" duration-ms="93833" started-at="2020-07-15T09:38:27Z" finished-at="2020-07-15T09:40:01Z">
+    <test name="CodeCoverage" duration-ms="43833" started-at="2020-07-15T10:39:00Z" finished-at="2020-07-15T10:39:44Z">
       <class name="TestSuite.LaunchHomePage">
-        <test-method status="PASS" signature="startTomcat()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="startTomcat" is-config="true" duration-ms="15" started-at="2020-07-15T09:38:27Z" finished-at="2020-07-15T09:38:27Z">
+        <test-method status="PASS" signature="startTomcat()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="startTomcat" is-config="true" duration-ms="17" started-at="2020-07-15T10:39:00Z" finished-at="2020-07-15T10:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTomcat -->
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="startup" is-config="true" duration-ms="17974" started-at="2020-07-15T09:38:28Z" finished-at="2020-07-15T09:38:46Z">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="startup" is-config="true" duration-ms="15051" started-at="2020-07-15T10:39:00Z" finished-at="2020-07-15T10:39:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="verifyHomePage" duration-ms="5501" started-at="2020-07-15T09:38:46Z" finished-at="2020-07-15T09:38:51Z">
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="verifyHomePage" duration-ms="147" started-at="2020-07-15T10:39:15Z" finished-at="2020-07-15T10:39:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="tearDown" is-config="true" duration-ms="567" started-at="2020-07-15T09:38:51Z" finished-at="2020-07-15T09:38:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="tearDown" is-config="true" duration-ms="636" started-at="2020-07-15T10:39:15Z" finished-at="2020-07-15T10:39:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="startup" is-config="true" duration-ms="26998" started-at="2020-07-15T09:38:52Z" finished-at="2020-07-15T09:39:19Z">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="startup" is-config="true" duration-ms="24265" started-at="2020-07-15T10:39:16Z" finished-at="2020-07-15T10:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="verifyLogin" duration-ms="41957" started-at="2020-07-15T09:39:19Z" finished-at="2020-07-15T09:40:01Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="verifyLogin" duration-ms="2854" started-at="2020-07-15T10:39:40Z" finished-at="2020-07-15T10:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-07-15T09:40:01Z" finished-at="2020-07-15T09:40:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="tearDown" is-config="true" duration-ms="626" started-at="2020-07-15T10:39:43Z" finished-at="2020-07-15T10:39:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="stopTomcat()[pri:0, instance:TestSuite.LaunchHomePage@1794d431]" name="stopTomcat" is-config="true" duration-ms="4018" started-at="2020-07-15T09:40:02Z" finished-at="2020-07-15T09:40:06Z">
+        <test-method status="PASS" signature="stopTomcat()[pri:0, instance:TestSuite.LaunchHomePage@5442a311]" name="stopTomcat" is-config="true" duration-ms="4020" started-at="2020-07-15T10:39:44Z" finished-at="2020-07-15T10:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopTomcat -->
