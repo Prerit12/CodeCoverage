@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="Example Ant Build with JaCoCo" default="rebuild" xmlns:jacoco="antlib:org.jacoco.ant">
+
+	<description>
+   Example Ant build file that demonstrates how a JaCoCo coverage report
+   can be itegrated into an existing build in three simple steps.
+ </description>
+	<property file = "build.properties"/>
+	<property name="src.dir" location="D:\\CodeCoverageDummyProject\\java-jsp-diary-master\\java-jsp-diary-master\\src\\main\\java" />
+	<property name="result.dir" location="D:\\Softwares\\apache-tomcat-8.5.57-windows-x64\\apache-tomcat-8.5.57\\webapps\\java-jsp-diary\\WEB-INF" />
+	<property name="result.classes.dir" location="${result.dir}/classes" />
+	<property name="result.report.dir" location="D:\\Softwares\\Jacoco" />
+	<property name="result.exec.file" location="D:\\Softwares\\Jacoco\\ST\\jacoco.exec" />
+
+	<!-- Step 1: Import JaCoCo Ant tasks -->
+	<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<classpath path="D:\\Softwares\\Jacoco\\jacocoant.jar" />
+	</taskdef>
+
+	<target name="report">
+		<!-- Step 3: Create coverage report -->
+		<jacoco:report>
+
+			<!-- This task needs the collected execution data and ... -->
+			<executiondata>
+				<file file="${result.exec.file}" />
+			</executiondata>
+
+			<!-- the class files and optional source files ... -->
+			<structure name="JaCoCo Ant Example">
+				<classfiles>
+					<fileset dir="${result.classes.dir}" />
+				</classfiles>
+				<sourcefiles encoding="UTF-8">
+					<fileset dir="${src.dir}" />
+				</sourcefiles>
+			</structure>
+
+			<!-- to produce reports in different formats. -->
+			<html destdir="${result.report.dir}" />
+			<csv destfile="${result.report.dir}/report.csv" />
+			<xml destfile="${result.report.dir}/report.xml" />
+		</jacoco:report>
+	</target>
+
+	<target name="rebuild" depends="report" />
+
+</project>
