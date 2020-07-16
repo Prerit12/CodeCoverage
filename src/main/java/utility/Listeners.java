@@ -44,11 +44,11 @@ public class Listeners extends BaseClass implements ITestListener, IInvokedMetho
 			String[] commandAntBuild = { "cmd.exe", "/C", "Start", "antBuild.bat" };
 			Runtime.getRuntime().exec(commandAntBuild);
 			FunctionsClass.sleep(2);
-			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
 			test = report.createTest("Code Coverage Report");
 			test.log(Status.INFO,
 					"Code Coverage Link : <a href='file:///D:/Softwares/Jacoco/index.html'>Code Coverage Link</a>");
 			report.flush();
+			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
 		} catch (Exception e) {
 			logger.error(e);
 		}

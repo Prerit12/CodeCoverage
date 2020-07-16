@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="CodeCoverage" duration-ms="31412" started-at="2020-07-16T05:24:44Z" finished-at="2020-07-16T05:25:15Z">
+  <suite name="CodeCoverage" duration-ms="31231" started-at="2020-07-16T05:37:10Z" finished-at="2020-07-16T05:37:42Z">
     <groups>
     </groups>
-    <test name="CodeCoverage" duration-ms="31412" started-at="2020-07-16T05:24:44Z" finished-at="2020-07-16T05:25:15Z">
+    <test name="CodeCoverage" duration-ms="31231" started-at="2020-07-16T05:37:10Z" finished-at="2020-07-16T05:37:42Z">
       <class name="TestSuite.LaunchHomePage">
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="startup" is-config="true" duration-ms="14798" started-at="2020-07-16T05:24:44Z" finished-at="2020-07-16T05:24:59Z">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="startup" is-config="true" duration-ms="14602" started-at="2020-07-16T05:37:11Z" finished-at="2020-07-16T05:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="verifyHomePage" duration-ms="612" started-at="2020-07-16T05:24:59Z" finished-at="2020-07-16T05:24:59Z">
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="verifyHomePage" duration-ms="614" started-at="2020-07-16T05:37:25Z" finished-at="2020-07-16T05:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="tearDown" is-config="true" duration-ms="622" started-at="2020-07-16T05:24:59Z" finished-at="2020-07-16T05:25:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="tearDown" is-config="true" duration-ms="644" started-at="2020-07-16T05:37:26Z" finished-at="2020-07-16T05:37:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="startup" is-config="true" duration-ms="11197" started-at="2020-07-16T05:25:00Z" finished-at="2020-07-16T05:25:11Z">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="startup" is-config="true" duration-ms="11268" started-at="2020-07-16T05:37:27Z" finished-at="2020-07-16T05:37:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="verifyLogin" duration-ms="3299" started-at="2020-07-16T05:25:11Z" finished-at="2020-07-16T05:25:15Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="verifyLogin" duration-ms="3181" started-at="2020-07-16T05:37:38Z" finished-at="2020-07-16T05:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="tearDown" is-config="true" duration-ms="638" started-at="2020-07-16T05:25:15Z" finished-at="2020-07-16T05:25:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuite.LaunchHomePage@343f4d3d]" name="tearDown" is-config="true" duration-ms="634" started-at="2020-07-16T05:37:41Z" finished-at="2020-07-16T05:37:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
