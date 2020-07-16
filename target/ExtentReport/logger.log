@@ -44,3 +44,19 @@ Session ID: 3b69761fa82d224163f65d49f0a43549
 2020-07-15 16:09:15 INFO  BaseClass:36 - Test Case Passed: verifyHomePage
 2020-07-15 16:09:40 INFO  BaseClass:29 - Test Case Started: verifyLogin
 2020-07-15 16:09:43 INFO  BaseClass:36 - Test Case Passed: verifyLogin
+2020-07-16 10:31:26 ERROR BaseClass:45 - org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '172.20.10.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b92a5c8abcbe3e7b1f33db6672ea7925
+2020-07-16 10:32:09 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-16 10:32:09 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-16 10:32:21 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-16 10:32:24 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-16 10:40:49 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-16 10:40:49 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-16 10:41:01 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-16 10:41:04 INFO  BaseClass:34 - Test Case Passed: verifyLogin

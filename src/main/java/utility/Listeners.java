@@ -8,8 +8,6 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
 
-
-
 public class Listeners extends BaseClass implements ITestListener, IInvokedMethodListener {
 
 	// When Test case get failed, this method is called.
@@ -38,14 +36,32 @@ public class Listeners extends BaseClass implements ITestListener, IInvokedMetho
 	}
 
 	public void onFinish(ITestContext arg0) {
-		driver.quit();
-		test = report.createTest("Code Coverage Report");
-		test.log(Status.INFO,"Code Coverage Link : <a href='file:///D:/Softwares/Jacoco/index.html'>Code Coverage Link</a>");
-		report.flush();
+		try {
+			driver.quit();
+			String[] command = { "cmd.exe", "/C", "Start", "tomcatstop.bat" };
+			Runtime.getRuntime().exec(command);
+			FunctionsClass.sleep(2);
+			String[] commandAntBuild = { "cmd.exe", "/C", "Start", "antBuild.bat" };
+			Runtime.getRuntime().exec(commandAntBuild);
+			FunctionsClass.sleep(2);
+			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
+			test = report.createTest("Code Coverage Report");
+			test.log(Status.INFO,
+					"Code Coverage Link : <a href='file:///D:/Softwares/Jacoco/index.html'>Code Coverage Link</a>");
+			report.flush();
+		} catch (Exception e) {
+			logger.error(e);
+		}
 	}
 
 	public void onStart(ITestContext arg0) {
-		report = ExtentManager.getInstance();
+		try {
+			String[] command = { "cmd.exe", "/C", "Start", "tomcatstart.bat" };
+			Runtime.getRuntime().exec(command);
+			report = ExtentManager.getInstance();
+		} catch (Exception e) {
+			logger.error(e);
+		}
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
@@ -57,6 +73,6 @@ public class Listeners extends BaseClass implements ITestListener, IInvokedMetho
 	}
 
 	public void beforeInvocation(IInvokedMethod invokedMethod, ITestResult result) {
-		
+
 	}
 }
