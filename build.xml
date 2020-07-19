@@ -11,7 +11,7 @@
 	<property name="src.dir" location="D:\\CodeCoverageDummyProject\\java-jsp-diary-master\\java-jsp-diary-master\\src\\main\\java" />
 	<property name="result.dir" location="D:\\Softwares\\apache-tomcat-8.5.57-windows-x64\\apache-tomcat-8.5.57\\webapps\\java-jsp-diary\\WEB-INF" />
 	<property name="result.classes.dir" location="${result.dir}/classes" />
-	<property name="result.report.dir" location="D:\\Softwares\\Jacoco" />
+	<property name="result.report.dir" location="D:\\Softwares\\Jacoco\\JSPDiaryReport" />
 	<property name="result.exec.file" location="D:\\Softwares\\Jacoco\\ST\\jacoco.exec" />
 
 	<!-- Step 1: Import JaCoCo Ant tasks -->

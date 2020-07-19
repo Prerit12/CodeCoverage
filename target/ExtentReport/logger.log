@@ -72,3 +72,48 @@ Session ID: b92a5c8abcbe3e7b1f33db6672ea7925
 2020-07-16 11:07:26 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
 2020-07-16 11:07:38 INFO  BaseClass:27 - Test Case Started: verifyLogin
 2020-07-16 11:07:41 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-16 11:25:33 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-16 11:25:34 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-16 11:25:46 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-16 11:25:50 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-16 11:36:34 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-16 11:36:34 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-16 11:36:46 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-16 11:36:49 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-17 15:10:01 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-17 15:10:02 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-17 15:10:28 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-17 15:10:32 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-19 14:28:27 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-19 14:28:27 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-19 14:28:53 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-19 14:28:56 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-19 14:32:13 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-19 14:32:14 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-19 14:32:39 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-19 14:32:42 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-19 14:36:34 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-19 14:36:34 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-19 14:37:00 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-19 14:37:03 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-19 14:38:28 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-19 14:38:29 INFO  BaseClass:34 - Test Case Passed: verifyHomePage
+2020-07-19 14:38:55 INFO  BaseClass:27 - Test Case Started: verifyLogin
+2020-07-19 14:38:58 INFO  BaseClass:34 - Test Case Passed: verifyLogin
+2020-07-19 14:39:45 ERROR BaseClass:16 - org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b36595ea5155a43ca98cabb66b8d606e
+2020-07-19 14:39:45 INFO  BaseClass:27 - Test Case Started: verifyHomePage
+2020-07-19 14:39:57 ERROR FunctionsClass:104 - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRE3147530', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\PRERIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b36595ea5155a43ca98cabb66b8d606e
+*** Element info: {Using=xpath, value=//h3}
